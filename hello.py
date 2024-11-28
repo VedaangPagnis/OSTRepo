@@ -1,5 +1,6 @@
-def findmax69Number(num) :
-    return int(str(num).replace('6','9',1))
+def printer():
+    arr = [78,1,2,-6,100]
+    arr.sort()
+    print(arr)
 
-res = findmax69Number(6996)
-print(res)
+printer()
